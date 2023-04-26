@@ -1,0 +1,23 @@
+.main .abody {
+    padding: 5px;
+    border: 2px solid black;
+    display: none;
+    font-size: 1.5rem;
+  }
+  
+.main .active .abody {
+display: block;
+}
+
+.main .active .ahead {
+background-color: yellowgreen;
+color: black;
+}
+
+.main .ahead {
+background-color: #333;
+padding: 5px;
+color: white;
+font-size: 2rem;
+margin: 5px 0;
+}
